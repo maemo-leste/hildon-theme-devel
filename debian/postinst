@@ -1,0 +1,13 @@
+#!/bin/sh
+
+default=/usr/share/themes/default
+hildon-theme-cacher /usr/share/themes/devel
+
+# Make this theme default.
+#if [ -h "$default" ]; then
+#	rm "$default"
+#fi
+
+#ln -s /usr/share/themes/devel "$default"
+
+exit 0

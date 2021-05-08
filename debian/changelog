@@ -1,0 +1,339 @@
+hildon-theme-devel (5.12.2-1+0m5) unstable; urgency=low
+
+  * This entry has been added by BIFH queue processor
+    Suffix +0m5 added to package revision
+
+ -- Kojo Aapo <aapo.kojo@nokia.com>  Fri, 04 Sep 2009 17:02:00 +0300
+
+hildon-theme-devel (5.12.2-1) unstable; urgency=low
+
+  * Rotate unlock slider images for portrait mode.
+
+ -- Daniel Borgmann <danielb@openismus.com>  Thu, 03 Sep 2009 12:58:00 +0200
+
+hildon-theme-devel (5.12.1-1) unstable; urgency=low
+
+  * Add AlphaKeyColor.
+  * Add lockslider background, see: NB#131460.
+
+ -- Daniel Borgmann <danielb@openismus.com>  Tue, 18 Aug 2009 18:11:00 +0200
+
+hildon-theme-devel (5.12.0-1) unstable; urgency=low
+
+  * New calendar widget size. See: NB#128469.
+
+ -- Daniel Borgmann <danielb@openismus.com>  Tue, 28 Jul 2009 18:01:00 +0200
+
+hildon-theme-devel (5.10.21-1) unstable; urgency=low
+
+  * Add clock background. Fixes: NB#125718.
+
+ -- Daniel Borgmann <danielb@openismus.com>  Tue, 30 Jun 2009 13:56:00 +0200
+
+hildon-theme-devel (5.10.20-1) unstable; urgency=low
+
+  * Add application shortcut widgets.
+  * Portrait mode graphics for HildonBanner.
+  * Adjusted application manager graphic.
+  * Tweaked baseline graphic. Fixes: NB#119284.
+
+ -- Daniel Borgmann <danielb@openismus.com>  Thu, 18 Jun 2009 13:47:00 +0200
+
+hildon-theme-devel (5.10.19-1) unstable; urgency=low
+
+  * New lock slider graphics.
+
+ -- Daniel Borgmann <danielb@openismus.com>  Mon, 11 Jun 2009 18:27:00 +0200
+
+hildon-theme-devel (5.10.18-2) unstable; urgency=low
+
+  * Add imagemagick build dependency.
+
+ -- Daniel Borgmann <danielb@openismus.com>  Mon, 10 Jun 2009 12:34:00 +0200
+
+hildon-theme-devel (5.10.18-1) unstable; urgency=low
+
+  * Changed category to user/themes, so themes can be installed with app mgr.
+  * Added calendar pressed state graphics.
+  * Adjust some colours to work better with 16bit.
+  * Add accent button graphics (not yet used).
+  * Update separator styles. Fixes: NB#118785.
+  * Integrated dithering tool. Fixes: NB#104820.
+  * Updated incoming event to latest spec.
+
+ -- Daniel Borgmann <danielb@openismus.com>  Mon, 08 Jun 2009 17:04:00 +0200
+
+hildon-theme-devel (5.10.17-1) unstable; urgency=low
+
+  * New mediaplayer background image.
+  * Updated slider button in startup-wizard. Fixes: NB#112738.
+  * Updated toolbars and toolbar item highlights.
+  * Title area and desktop widgets design refreshed.
+  * Darker background color.
+
+ -- Daniel Borgmann <danielb@openismus.com>  Mon, 11 May 2009 18:34:00 +0200
+
+hildon-theme-devel (5.10.16-1) unstable; urgency=low
+
+  * Drastically reduced size of calendar background images on the device.
+  * Call UI button colors tweaked.
+  * Updated thumbnail.
+  * User visible name changed to "Melody".
+  * New wallpaper.
+  * Added background thumbnails (to be used by hildon-home in the future).
+  * Use jpgs instead of pngs for backgrounds.
+  * Removed deprecated wallpaper.png.
+
+ -- Daniel Borgmann <danielb@openismus.com>  Tue, 05 May 2009 18:33:00 +0200
+
+hildon-theme-devel (5.10.15-1) unstable; urgency=low
+
+  * Add missing close button on legacy notification thumbnail. Fixes: NB#113940.
+
+ -- Daniel Borgmann <danielb@openismus.com>  Thu, 30 Apr 2009 17:09:00 +0200
+
+hildon-theme-devel (5.10.14-1) unstable; urgency=low
+
+  * Updated calendar graphics and backgrounds.
+  * Add custom Lock slider widget and update slider design.
+  * Fix and update call-ui elements.
+  * Add media player applet stop button. Fixes: NB#110891.
+  * Better contrast for AccentColor labels on buttons. Fixes: NB#110473.
+  * Updated RoundedSelection to be scalable and used in more places.
+
+ -- Daniel Borgmann <danielb@openismus.com>  Tue, 24 Apr 2009 19:13:00 +0200
+
+hildon-theme-devel (5.10.13-1) unstable; urgency=low
+
+  * Updated startup wizard template.
+  * Improved title bar icons.
+  * Tweaked button design.
+  * Add call UI specific graphics and accept/reject buttons to the template.
+
+ -- Daniel Borgmann <danielb@openismus.com>  Tue, 08 Apr 2009 10:29:00 +0200
+
+hildon-theme-devel (5.10.12-1) unstable; urgency=low
+
+  * Updated button design.
+  * Trying a lighter background color.
+  * Updated listview style.
+  * Added white sparkle graphic (to replace the one included in hildon-desktop).
+
+ -- Daniel Borgmann <danielb@openismus.com>  Tue, 02 Apr 2009 17:17:00 +0200
+
+hildon-theme-devel (5.10.11-1) unstable; urgency=low
+
+  * Reduced themed button margins to match nseries theme.
+  * Changed startup-wizard scroll indicator to match new HildonPannableArea style.
+  * Slight touch-up of legacy scrollbars.
+  * Added preliminary call-ui theme graphics.
+  * Added icon highlight graphics for clock and mediaplayer.
+  * Added contacts and calendar applet active state graphics.
+  * Added group title graphics.
+
+ -- Daniel Borgmann <danielb@openismus.com>  Tue, 27 Mar 2009 11:08:00 +0200
+
+hildon-theme-devel (5.10.10-1) unstable; urgency=low
+
+  * New calendar background images by Vilja Helkio.
+  * Fixed a colour inconsistency in titlebar graphics. Fixes: NB#103925
+  * TextInput graphics have transparent margins.
+  * Added custom colours for messaging UI.
+
+ -- Daniel Borgmann <danielb@openismus.com>  Tue, 20 Mar 2009 13:27:00 +0200
+
+hildon-theme-devel (5.10.9-1) unstable; urgency=low
+
+  * Consistent dark(ish) background for applets.
+
+ -- Daniel Borgmann <danielb@openismus.com>  Tue, 17 Mar 2009 18:20:00 +0200
+
+hildon-theme-devel (5.10.8-1) unstable; urgency=low
+
+  * Added taskswitcher graphics (for bug 98762).
+  * Title area graphics are now flat. Fixes: NB#103925
+  * Added graphics for bidirectional sliders (for bug 104604).
+  * Minor touch ups to theme graphics, cleaner look for some legacy widgets.
+
+ -- Daniel Borgmann <danielb@openismus.com>  Tue, 16 Mar 2009 10:26:00 +0200
+
+hildon-theme-devel (5.10.7-1) unstable; urgency=low
+
+  * Reverse active/disabled graphics for menu arrows. Fixes: NB#91418
+  * Made comboboxes look more like the new buttons.
+  * Added smaller version of media player buttons for the applet (not used yet).
+  * Slightly different look for textinput fields.
+  * Adjusted menu background.
+  * Tweaked reversed text colour.
+  * Reverted to green wavy lines wallpapers as requested.
+
+ -- Daniel Borgmann <danielb@openismus.com>  Tue, 06 Mar 2009 19:58:00 +0200
+
+hildon-theme-devel (5.10.6-1) unstable; urgency=low
+
+  * Add combobox buttons for webbrowser UI (not used yet).
+  * New button design without the strong border and lighter insensitive buttons. Fixes: NB#103617
+  * Fix red stripe appearing at the top. Fixes: NB#103580
+
+ -- Daniel Borgmann <danielb@openismus.com>  Tue, 27 Feb 2009 17:31:00 +0200
+
+hildon-theme-devel (5.10.5-1) unstable; urgency=low
+
+  * Update to new template coordinates.
+  * New wallpapers.
+  * Added portrait mode background for call-ui.
+
+ -- Daniel Borgmann <danielb@openismus.com>  Tue, 23 Feb 2009 12:18:00 +0200
+
+hildon-theme-devel (5.10.3-1) unstable; urgency=low
+
+  * Updated startup wizard template.
+  * Rounded selection graphics.
+  * Progress indicator graphic.
+  * Installs matchbox-1 theme.
+  * Applet graphics.
+  * Installs fonts.css.
+  * Added tasklauncher highlight image.
+  * New graphics for titlebar theming and icons.
+  * Added message bubble graphics for chat application.
+  * Added mediaplayer icons template.
+  * Added separate titlebar graphic for taskswitcher thumbnails.
+
+ -- Daniel Borgmann <danielb@openismus.com>  Tue, 10 Feb 2009 15:38:00 +0200
+
+hildon-theme-devel (5.10.2-1) unstable; urgency=low
+
+  * New button design.
+  * Virtual keyboard button fixes.
+  * New panorama wallpaper.
+  * Added startup wizard wallpaper.
+  * New checkmark grpahics.
+
+ -- Daniel Borgmann <danielb@openismus.com>  Fri, 16 Dec 2008 15:38:00 +0200
+
+hildon-theme-devel (5.10.1-1) unstable; urgency=low
+
+  * New slider graphics.
+  * Added startup wizard template again.
+  * Changed install location of themable graphics.
+  * Added wintery wallpapers.
+  * Don't create default theme symlink anymore (should be done by
+    theme-config).
+  * Fix typo in debian control file. Fixes NB#93295
+
+ -- Daniel Borgmann <danielb@openismus.com>  Fri, 09 Dec 2008 17:11:00 +0200
+
+hildon-theme-devel (5.10.0-1) unstable; urgency=low
+
+  * Updated contacts applet bubble.
+  * Clean cache files on package removal.
+  * Fix an aclocal warning.
+  * Changed theme name to "Devel"
+  * Install theme.xml into $theme_dir/matchbox2.
+  * Generate one large template graphic for the window manager.
+  * Add calender backgrounds.
+
+ -- Daniel Borgmann <danielb@openismus.com>  Fri, 21 Nov 2008 14:54:00 +0200
+
+hildon-theme-devel (5.9.0-1) unstable; urgency=low
+
+  * Added default background for mediaplayer application.
+  * Desktop wallpapers moved to backgrounds/ subfolder.
+  * Added contacts applet avatar graphics.
+  * Minor template tweaks.
+
+ -- Daniel Borgmann <danielb@openismus.com>  Fri, 07 Nov 2008 15:05:00 +0200
+
+hildon-theme-devel (5.8.0-1) unstable; urgency=low
+
+  * Updates to the button styles.
+  * Updates to the toolbar background graphics.
+  * Removed legacy and unused graphics.
+  * New wallpapers, continuos looping.
+  * New graphics for the small progressbar and seekbark.
+  * ComboBox and Entry fixes.
+
+ -- Claudio Saavedra <csaavedra@igalia.com>  Fri, 31 Oct 2008 10:16:27 +0200
+
+hildon-theme-devel (5.7.0-1) unstable; urgency=low
+
+  * New look for buttons, text colour changes, update for comboboxes.
+
+ -- Claudio Saavedra <csaavedra@igalia.com>  Thu, 16 Oct 2008 17:42:49 +0300
+
+hildon-theme-devel (5.6.0-1) unstable; urgency=low
+
+  * New release, depend on hildon-theme-layout-5 0.6.0
+  * Removed startup wizard stuff, not part of the theme.
+  * Add rules to install CSS file for web runtime use.
+  * Added icons for WM buttons.
+  * Several theming improvements, see ChangeLog for details.
+
+ -- Claudio Saavedra <csaavedra@igalia.com>  Wed, 08 Oct 2008 14:38:07 +0300
+
+hildon-theme-devel (5.5.0-1) unstable; urgency=low
+
+  * New release, depend on hildon-theme-layout-5 0.5.0.
+  * New Berlin maemo summit wallpapers.
+  * Reworked color palette.
+  * Updated combobox entry arrows.
+
+ -- Claudio Saavedra <csaavedra@igalia.com>  Mon, 22 Sep 2008 16:33:24 +0300
+
+hildon-theme-devel (5.4.0-1) unstable; urgency=low
+
+  * New release, depend on hildon-theme-layout-5 0.4.0.
+  * Install the four wallpapers in the system.
+  * Add background for Hildon Confirmation Note.
+  * Updates to the Hildon Touch Entry theming.
+
+ -- Claudio Saavedra <csaavedra@igalia.com>  Mon, 08 Sep 2008 16:59:48 +0300
+
+hildon-theme-devel (5.3.0-1) unstable; urgency=low
+
+  * New release, depend on hildon-theme-layout-5 0.3.0.
+
+ -- Claudio Saavedra <csaavedra@igalia.com>  Wed, 27 Aug 2008 11:36:49 +0300
+
+hildon-theme-devel (5.2.0-2) unstable; urgency=low
+
+  * New release, set theme as default theme.
+
+ -- Claudio Saavedra <csaavedra@igalia.com>  Tue, 26 Aug 2008 11:08:46 +0300
+
+hildon-theme-devel (5.2.0-1) unstable; urgency=low
+
+  * Bump version, new stuff, updated to new layout.
+
+ -- Tuomas Kuosmanen <tuomas.kuosmanen@nokia.com>  Wed, 02 Jul 2008 16:32:15 -0400
+
+hildon-theme-devel (5.1.2-1) unstable; urgency=low
+
+  * Added 'Provides: hildon-theme' to debian/control.
+
+ -- Tuomas Kuosmanen <tuomas.kuosmanen@nokia.com>  Fri,  8 Aug 2008 12:41:08 +0300
+
+hildon-theme-devel (5.1.1-1) unstable; urgency=low
+
+   * Bump version
+
+ -- Tuomas Kuosmanen <tuomas.kuosmanen@nokia.com>  Thu, 07 Aug 2008 13:59:21 +0300
+
+hildon-theme-devel (5.1.0-2) unstable; urgency=low
+
+   * template/template.svg: should now contain all new widget
+     graphics according to my current understanding. The missing ones
+     are possible bitmaps for different dialogs/banners, but those do
+     also exist in legacy side, so we probably will reuse them? Also
+     likely something will need to be changed when implementation
+     proceeds, but that's just business as usual :)
+
+ -- Karl Lattimer <karl.lattimer@nokia.com>  Thu, 03 Jul 2008 14:57:00 +0300
+
+hildon-theme-devel (5.1.0-1) unstable; urgency=low
+
+   * Initial import to a new package name. Was hildon-theme-smoooth before.
+
+ -- Tuomas Kuosmanen <tuomas.kuosmanen@nokia.com>  Wed, 28 May 2008 11:04:01 +0300
+
+
