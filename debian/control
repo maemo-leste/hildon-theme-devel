@@ -1,6 +1,6 @@
 Source: hildon-theme-devel
 Priority: optional
-Section: user/themes
+Section: themes
 Maintainer: Ivan J. <parazyd@dyne.org>
 Build-Depends:
  debhelper-compat (=12),
